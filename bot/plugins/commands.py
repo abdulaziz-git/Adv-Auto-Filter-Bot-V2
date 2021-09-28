@@ -27,7 +27,7 @@ async def start(bot, update):
         try:
             await update.reply_cached_media(
                 file_id,
-                quote=True,
+                quote=False,
                 caption = caption,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Join Group 🍿', url="https://t.me/ayonontonyuk"
                                 )
                         ]
                     ]
@@ -47,12 +47,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
-    ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
-    ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('Join Group', url='https://t.me/ayonontonyuk'),
+        InlineKeyboardButton('Majikan Saya', url ='https://t.me/chickenstealer')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)

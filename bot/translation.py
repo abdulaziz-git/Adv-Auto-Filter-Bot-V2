@@ -4,13 +4,13 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+    START_TEXT = """<b>Halo {}!!</b>
+<i>Nama saya Oton,
 
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
+Saya bot yang tugasnya mengirimkan file yang diminta user di group @ayonontonyuk
 
-For More Details Click Help Button Below..
-@CrazyBotsz
+Kalau ada pertanyaan atau yang lainnya, hubungi majikan saya
+@chickenstealer
 </i>"""    
     
     HELP_TEXT = """
@@ -43,7 +43,7 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@CrazyBotsz
+Join group Nonton Yuk di @ayonontonyuk
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>

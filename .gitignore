@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+bot/__init__.py
+bot/bot.session
+autofilterbot.txt
+initpy
